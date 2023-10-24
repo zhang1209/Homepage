@@ -152,8 +152,8 @@ code_block:
   # Toolbar include: "code copy", "code block collapse" and "code language"
   tools:
     enable: true            # Option values: true | false
-    style: default           # Option values: default | mac
-  highlight_theme: default   # Option values: default | obsidian
+    style: mac           # Option values: default | mac
+  highlight_theme: obsidian   # Option values: default | obsidian
 
 # ---------------------------------------------------------------------------------------
 # Table of Contents in the Sidebar
@@ -182,7 +182,7 @@ website_count:
   # busuanzi
   # See: http://ibruce.info/2015/04/04/busuanzi/
   busuanzi_count:
-    enable: true     # Option values: true | false
+    enable: false     # Option values: true | false
     site_uv: true    # Option values: true | false
     site_pv: true    # Option values: true | false
     page_pv: true    # Option values: true | false
@@ -288,7 +288,7 @@ pjax:
 # Docs: https://keep-docs.xpoet.cn/tutorial/configuration-guide/footer.html
 # ---------------------------------------------------------------------------------------
 footer:
-  since: 2020           # The starting year of your website, Can be null
+  since: 2023           # The starting year of your website, Can be null
   word_count: false     # Option values: true | false
 
   icp:
