@@ -292,9 +292,9 @@ footer:
   word_count: false     # Option values: true | false
 
   icp:
-    enable: false                    # Option values: true | false
-    record_code:                     # ICP record code of your website
-    url: https://beian.miit.gov.cn   # Your ICP link url, Can be null
+    enable: enable                    # Option values: true | false
+    record_code: 豫 ICP 备 2023028073 号                  # ICP record code of your website
+    url: https://beian.miit.gov.cn/  # Your ICP link url, Can be null
 
   site_deploy:
     enable: false        # Option values: true | false
